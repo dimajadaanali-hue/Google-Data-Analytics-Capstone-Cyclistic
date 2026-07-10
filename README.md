@@ -4,7 +4,7 @@
 ## 📌 Introduction & Case Background
 Cyclistic is a successful bike-share program in Chicago launched in 2016. The program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across the city. 
 
-The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team needs to understand how casual riders and annual members use Cyclistic bikes differently to design a new marketing strategy aimed at converting casual riders into annual members.
+The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team needs to understand how casual riders and annual members use Cyclistic bikes differently to design a new marketing strategy aimed adolescent at converting casual riders into annual members.
 
 ---
 
@@ -28,7 +28,7 @@ The strategic goal is to convert casual riders into annual members. To inform th
 
 ---
 
-### 3. Process (Data Cleaning & Transformation)
+## 🛠️ 3. Process (Data Cleaning & Transformation)
 To handle millions of rows efficiently, the data processing was conducted across two environments:
 
 #### A. SQL Server / Google Cloud BigQuery
