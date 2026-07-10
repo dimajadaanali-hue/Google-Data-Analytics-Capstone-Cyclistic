@@ -49,7 +49,7 @@ Both environments generated **identical metrics, breakdowns, and behavioral tren
 #### A. Interactive Power BI Dashboard
 This dashboard was designed to provide stakeholders with dynamic, interactive filters to drill down into specific user behaviors.
 
-![Power BI Dashboard](cyclistic_Bower BI_dashboard.png)
+![Power BI Dashboard](cyclistic_Bower_BI_dashboard.png)
 
 #### B. R (ggplot2) Dashboard Replication
 To cross-validate the Power BI outputs, the exact same clean datasets were analyzed using an R script. As shown below, the R visualization yields identical results, confirming zero data loss or calculation errors between the two environments.
