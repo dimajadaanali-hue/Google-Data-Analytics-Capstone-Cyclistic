@@ -1,0 +1,1 @@
+SELECT * FROM `cyclistic-bike-capstone-497321.cyclistic_data.cleaned_combined_data` 
