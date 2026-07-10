@@ -41,17 +41,24 @@ I wrote optimized SQL queries to clean and stage the data:
 
 ---
 
-### 4. Analyze & Share (Data Exploration & Visualization)
-Using **R (RStudio)** and specialized visualization libraries, I performed data aggregation and statistical analysis to isolate the behavioral differences between users.
+### 4. Analyze & Share (Data Exploration & Cross-Verification)
+To ensure absolute data integrity and demonstrate versatility across analytics tools, the visual analysis was completely orchestrated in two distinct environments: **Power BI** (for interactive business reporting) and **R / ggplot2** (for programmatic validation). 
 
-#### Final Interactive Dashboard
-Here is the visual representation of the key trends extracted from the data:
+Both environments generated **identical metrics, breakdowns, and behavioral trends**, cross-verifying the precision and consistency of the underlying data pipeline.
 
-![Cyclistic Bike Share Dashboard](cyclistic_r_dashboard.png)
+#### A. Interactive Power BI Dashboard
+This dashboard was designed to provide stakeholders with dynamic, interactive filters to drill down into specific user behaviors.
 
-#### Key Trends Identified:
-* **Weekly Patterns:** Annual members maintain consistent trip volumes throughout weekdays (Monday–Friday), showing sharp peaks during standard commuting windows (8:00 AM and 5:00 PM). Conversely, Casual riders peak heavily on weekends (Saturday and Sunday) for leisure.
-* **Duration Multipliers:** Casual riders log average trip lengths that are nearly double those of annual members, implying different utility models (commuting utility vs. recreational utility).
+![Power BI Dashboard](cyclistic_Bower BI_dashboard.png)
+
+#### B. R (ggplot2) Dashboard Replication
+To cross-validate the Power BI outputs, the exact same clean datasets were analyzed using an R script. As shown below, the R visualization yields identical results, confirming zero data loss or calculation errors between the two environments.
+
+![R Dashboard](cyclistic_R_dashboard.png)
+
+#### Key Trends Cross-Verified Across Both Tools:
+* **Weekly Patterns:** Annual members maintain consistent trip volumes throughout weekdays (Monday–Friday) for daily commuting (peak hours correspond to 8 AM and 5 PM). Conversely, Casual riders peak heavily on weekends (Saturday and Sunday) for leisure.
+* **Duration Multipliers:** Casual riders log average trip lengths that are nearly double those of annual members across all days of the week, implying different utility models (commuting utility vs. recreational utility).
 
 ---
 
